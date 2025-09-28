@@ -7,6 +7,7 @@ pragma solidity ^0.8.20;
  * @notice Simple vault-like bank donde usuarios depositan ETH en bóvedas personales.
  * @dev Implementa buenas prácticas: errores personalizados, checks-effects-interactions,
  *      transferencias nativas seguras, modificadores y NatSpec.
+ * @custom:dev-run-script scripts/deploy_with_ethers.ts
  */
 contract KipuBank {
     /* ========== CONSTANTS & IMMUTABLES ========== */
